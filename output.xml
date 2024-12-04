@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.7 on win32)" generated="2024-12-04T13:39:19.321502" rpa="false" schemaversion="5">
+<suite id="s1" name="Laser Tracker Tests" source="C:\Users\erlantz.barriuso\Documents\LaserTracker\Proyecto definitivo\laser_tracker_tests.robot">
+<test id="s1-t1" name="Controlar Laser Tracker" line="5">
+<kw name="Conectar Laser Tracker" owner="LaserLibrary">
+<msg time="2024-12-04T13:39:19.354988" level="INFO">Laser tracker conectado</msg>
+<status status="PASS" start="2024-12-04T13:39:19.354988" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-12-04T13:39:19.354988" elapsed="0.000000"/>
+</test>
+<test id="s1-t2" name="Mover Laser Tracker" line="10">
+<kw name="[Arguments] ${x} ${y} ${z}">
+<msg time="2024-12-04T13:39:19.354988" level="FAIL">No keyword with name '[Arguments] ${x} ${y} ${z}' found.</msg>
+<status status="FAIL" start="2024-12-04T13:39:19.354988" elapsed="0.000000">No keyword with name '[Arguments] ${x} ${y} ${z}' found.</status>
+</kw>
+<kw name="MoverLaserTracker ${x} ${y} ${z}">
+<status status="NOT RUN" start="2024-12-04T13:39:19.354988" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-12-04T13:39:19.354988" elapsed="0.000000">No keyword with name '[Arguments] ${x} ${y} ${z}' found.</status>
+</test>
+<test id="s1-t3" name="Desconectar Laser Tracker" line="14">
+<kw name="Desconectar Laser Tracker" owner="LaserLibrary">
+<msg time="2024-12-04T13:39:19.354988" level="FAIL">AttributeError: 'LaserLibrary' object has no attribute 'lib'</msg>
+<status status="FAIL" start="2024-12-04T13:39:19.354988" elapsed="0.000000">AttributeError: 'LaserLibrary' object has no attribute 'lib'</status>
+</kw>
+<status status="FAIL" start="2024-12-04T13:39:19.354988" elapsed="0.000000">AttributeError: 'LaserLibrary' object has no attribute 'lib'</status>
+</test>
+<status status="FAIL" start="2024-12-04T13:39:19.321502" elapsed="0.033486"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="2" skip="0" id="s1" name="Laser Tracker Tests">Laser Tracker Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
